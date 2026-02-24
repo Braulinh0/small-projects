@@ -14,5 +14,5 @@ In this repository you'll find small projects like games, websites, idk I can't 
 
 <hr>
 <p align="center">
-  Built by Braulinho 🔥 I'm not accepting job offers at the moment, sorry Oracle... 💔
+  Built by Braulinho 🔥 I'm not accepting job offers at the moment, sorry Oracle and Red Bull... 💔
 </p>
