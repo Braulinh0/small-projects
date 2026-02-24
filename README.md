@@ -5,7 +5,6 @@ In this repository you'll find small projects like games, websites, idk I can't 
   <img src="https://img.shields.io/badge/language-C++-blue">
   <img src="https://img.shields.io/badge/language-Python-yellow">
   <img src="https://img.shields.io/badge/status-Active-brightgreen">
-  <img src="https://img.shields.io/badge/license-MIT-lightgrey">
 </p>
 
 
