@@ -13,3 +13,6 @@ In this repository you'll find small projects like games, websites, idk I can't 
   </p>
 </hr>
 
+<p align="center">
+  Built by Braulinho 🔥
+</p>
