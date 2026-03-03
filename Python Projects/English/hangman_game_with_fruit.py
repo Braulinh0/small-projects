@@ -1,6 +1,7 @@
 # Import choice to randomly select fruits
 
 from random import choice
+from os import system
 
 # ---------------------------------------------------------------
 
@@ -62,21 +63,31 @@ while lives != 0:
     letter = input("Enter a letter: ").lower()
     
     if already_chosen(letter, used_letters):
+        system("cls")
+
         print("You have already chosen this letter, select another one.")
         continue
 
     correct, progress, subtract = check_letter(word, letter, progress)
     
     if correct:  # <- If at least one letter was guessed correctly.
+        system("cls")
+
         print("You got it right!")
         remaining_letters -= subtract
     else:  # <- If the guess was incorrect.
+        system("cls")
+
         print("This letter is not in the word...")
         lives -= 1
         
     if "_" not in progress:  # <- Check if there are no more hidden characters.
+        system("cls")
+
         print(f"Congratulations, you won! The word was: {word}")
         break
     
 if lives == 0:
+    system("cls")
+
     print(f"You lost! The word was: {word}")
