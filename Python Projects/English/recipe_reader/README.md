@@ -30,10 +30,10 @@ Each recipe is a `.txt` file.
 ## 🚨 Recommendations
 
 1. If you are going to add a recipe, avoid using strings that include the character `ñ` or accent marks.
-   - Example of encoding error:
-   ```
-   azÃºcar / BaÃ±a
-   ```
+- Example of encoding error:
+```
+azÃºcar / BaÃ±a
+```
 
 ---
 
