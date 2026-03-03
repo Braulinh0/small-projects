@@ -1,6 +1,7 @@
 # Importamos choice para hacer eleccion aleatoria de frutas
 
 from random import choice
+from os import system
 
 # ---------------------------------------------------------------
 
@@ -62,21 +63,31 @@ while vidas != 0 :
     letra = input("Ingresa una letra: ").lower()
     
     if ya_elegida(letra, letras_usadas) :
+        system("cls")
+
         print("Ya has elegido esta letra, selecciona otra.")
         continue
 
     acierto, progreso, resta = comprobar_letra(palabra, letra, progreso)
     
     if acierto : # <- Si acertaste al menos una letra de la palabra misteriosa.
+        system("cls")
+
         print("¡Acertaste!")
         letras_restantes -= resta
     else : # <- Si no acertaste.
+        system("cls")
+
         print("Esta letra no está...")
         vidas -= 1
         
     if "_" not in progreso : # <- Se revisa si ya no hay carácteres por descubrir.
+        system("cls")
+
         print(f"¡Has ganado, felicidades! La palabra era: {palabra}")
         break
     
 if vidas == 0 :
+    system("cls")
+
     print("¡Has perdido! La palabra era: {palabra}")
