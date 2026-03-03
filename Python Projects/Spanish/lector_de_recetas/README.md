@@ -9,9 +9,9 @@ Pequeña aplicación en consola que permite:
 - 🗑️ Eliminar categorías
 
 ## 🛠 Tecnologías usadas
-- Python
-- pathlib
-- shutil
+- Python 3
+- Librerías estándar: pathlib, shutil, os
+
 
 ## ▶ Cómo ejecutar
 
