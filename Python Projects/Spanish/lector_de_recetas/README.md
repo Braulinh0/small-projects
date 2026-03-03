@@ -29,6 +29,6 @@ Cada categoría es una carpeta.
 Cada receta es un archivo `.txt`.
 
 ---
-<p aling = "center">
+<p align = "center">
   Proyecto creado por Braulinho 😏
 </p>
