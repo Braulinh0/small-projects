@@ -1,3 +1,8 @@
+"""
+Autor: Braulinho
+Descripción: Aplicación en consola para gestionar recetas por categorías.
+"""
+
 # ----- Librerías -----
 
 from pathlib import Path
@@ -222,5 +227,4 @@ while True:
 # ----- Fin del programa -----
 
 system("cls")
-
 print("¡Programa finalizado, vuelva pronto!")
