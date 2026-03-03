@@ -28,6 +28,13 @@ Las recetas se guardan dentro de la carpeta `Recetas/`
 Cada categoría es una carpeta.
 Cada receta es un archivo `.txt`.
 
+## 🚨 Recomendaciones
+1. Si vas a añadir alguna receta, hazlo sin cadenas de texto que incluyan el carácter 'ñ' o tildes.
+  - Ejemplo de error:
+  ```
+  azÃºcar
+  ```
+
 ---
 <p align = "center">
   Proyecto creado por Braulinho 😏
