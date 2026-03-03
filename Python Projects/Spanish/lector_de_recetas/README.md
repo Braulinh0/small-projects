@@ -32,7 +32,7 @@ Cada receta es un archivo `.txt`.
 1. Si vas a añadir alguna receta, hazlo sin cadenas de texto que incluyan el carácter 'ñ' o tildes.
   - Ejemplo de error:
   ```
-  azÃºcar
+  azÃºcar / BaÃ±a
   ```
 
 ---
